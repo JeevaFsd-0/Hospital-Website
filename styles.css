@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+.nav-link {
+    padding: 0px 15px !important;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    border: 2px solid gray;
+    padding: 0 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.navbar-nav {
+    margin-right: 100px !important;
+}
+
+.image {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.section-container {
+    margin-top: 350px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title {
+    color: #fff;
+    background-color: gray;
+    padding: 0 20px;
+}
+
+.section-content {
+    font-size: 50px;
+    color: yellow;
+    background-color: gray;
+    padding: 0 20px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.form-container {
+    margin-top: 100px;
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+    margin-left: 500px;
+    background-color: gray;
+}
+
+.form-title {
+    text-align: center;
+    color: deepskyblue;
+}
+
+label {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.btn {
+    width: 100px;
+    background-color: rgb(0, 153, 255);
+    margin: 10px auto 0;
+    font-size: 20px;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: black;
+    color: #fff;
+}
