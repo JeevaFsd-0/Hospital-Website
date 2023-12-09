@@ -73,7 +73,7 @@
     padding: 20px;
     font-size: 20px;
 }
-
+/* 
 .form-container {
     margin-top: 100px;
     width: 300px;
@@ -88,6 +88,25 @@
     font-size: 20px;
     margin-left: 500px;
     background-color: gray;
+} */
+
+.form-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    background-color: gray;
+    position: absolute;
+    z-index: 1;
+    width: 30%;
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 8px;
 }
 
 .form-title {
@@ -110,7 +129,7 @@ input {
 .btn {
     width: 100px;
     background-color: rgb(0, 153, 255);
-    margin: 10px auto 0;
+    margin: 10px 35%;
     font-size: 20px;
     padding: 5px 20px;
     text-align: center;
